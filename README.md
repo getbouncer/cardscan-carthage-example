@@ -1,7 +1,10 @@
 # cardscan-carthage-example
 ### In `/CarthageBuildTest`
 1. Check that the `Cartfile` is pointing to the correct cardscan repo (i.e. master)
-2. Run ```carthage update``` and ```carthage build``` without errors
+   ```
+   github "getbouncer/cardscan-ios" "master" 
+   ```
+2. Run ```carthage update``` and ```carthage build```. If there are no errors, it is a successful build.
 ![Successful Run](ExampleImages/success.png)
 
 ### Possible Errors: 
