@@ -38,7 +38,7 @@ extension ViewController: ScanDelegate {
         print("Legacy: User Did Scan Card")
         dismiss(animated: true, completion: nil)
         
-        guard let resultVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "ResultViewController") as? ResultViewController else {
+        guard let resultVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ResultViewController") as? ResultViewController else {
             return
         }
         resultVc.name = creditCard.name
@@ -64,7 +64,7 @@ extension ViewController: SimpleScanDelegate {
         print("Simple: User Did Scan Card")
         dismiss(animated: true, completion: nil)
         
-        guard let resultVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "ResultViewController") as? ResultViewController else {
+        guard let resultVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ResultViewController") as? ResultViewController else {
             return
         }
         resultVc.name = creditCard.name
