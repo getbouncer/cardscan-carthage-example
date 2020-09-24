@@ -16,6 +16,7 @@
 		F324DFA823F475D4001E7106 /* CarthageBuildTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324DFA723F475D4001E7106 /* CarthageBuildTestTests.swift */; };
 		F324DFB323F475D4001E7106 /* CarthageBuildTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324DFB223F475D4001E7106 /* CarthageBuildTestUITests.swift */; };
 		F324E03223F4C007001E7106 /* CardScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F324E02C23F4BA28001E7106 /* CardScan.framework */; };
+		F38A6CDE251D48AC00C036AD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A6CDD251D48AC00C036AD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F324DFB223F475D4001E7106 /* CarthageBuildTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarthageBuildTestUITests.swift; sourceTree = "<group>"; };
 		F324DFB423F475D4001E7106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F324E02C23F4BA28001E7106 /* CardScan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CardScan.framework; path = Carthage/Build/iOS/CardScan.framework; sourceTree = "<group>"; };
+		F38A6CDD251D48AC00C036AD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				F324DF9923F475D4001E7106 /* Assets.xcassets */,
 				F324DF9B23F475D4001E7106 /* LaunchScreen.storyboard */,
 				F324DF9E23F475D4001E7106 /* Info.plist */,
+				F38A6CDD251D48AC00C036AD /* ResultViewController.swift */,
 			);
 			path = CarthageBuildTest;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				F324DF9523F475D2001E7106 /* ViewController.swift in Sources */,
 				F324DF9123F475D2001E7106 /* AppDelegate.swift in Sources */,
 				F324DF9323F475D2001E7106 /* SceneDelegate.swift in Sources */,
+				F38A6CDE251D48AC00C036AD /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4TQ6C2R74;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -507,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4TQ6C2R74;
+				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
